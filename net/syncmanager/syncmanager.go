@@ -283,7 +283,7 @@ func (sm *SyncManager) startSync() {
 		}
 
 		// TODO(davec): Use a better algorithm to choose the best peer.
-		// For now, just pick the first available candidate.
+		// For now, just pick the last available candidate.
 		bestPeer = peer
 	}
 
